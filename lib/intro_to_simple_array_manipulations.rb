@@ -7,9 +7,11 @@ end
 def using_pop(array)
   p= array.pop
 end
- #def pop_with_args(array)
-  # p=array.pop[-1,-2]
-  #end
+
+ def pop_with_args(array)
+   p=array.pop(-1,-2)
+  end
+  
 def using_shift(array)
   p=array.shift
 end
