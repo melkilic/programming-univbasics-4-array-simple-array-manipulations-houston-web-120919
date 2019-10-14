@@ -9,7 +9,7 @@ def using_pop(array)
 end
 
  def pop_with_args(array)
-   p=array.pop(-1,-2)
+  array.pop(-1,-2)
   end
 
 def using_shift(array)
